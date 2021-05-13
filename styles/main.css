@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Poppins:wght@200;300&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 15rem;
+}
+
+.comingSoong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50rem;
+}
+
+.h1, .h3, .strong {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
 /* Sticky Nav Bar and Footer */
 main > .container {
     padding: 60px 15px 0;
