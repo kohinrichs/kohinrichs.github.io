@@ -16,21 +16,16 @@
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-
   <title>Kate Hinrichs</title>
 </head>
 
 <body>
-  <section class="hero is-primary is-fullheight">
+  <section class="hero is-fullheight">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item">
-              <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-            </a>
             <span class="navbar-burger" data-target="navbarMenuHeroA">
               <span></span>
               <span></span>
@@ -43,7 +38,7 @@
                 Projects
               </a>
               <span class=" navbar-item">
-                <a class="button is-primary is-inverted">
+                <a class="button has-text-centered" href="images/ResumeV2_KateHinrichs.pdf" target="_blank">
                   <span class="icon">
                   </span>
                   <span>Download Resume</span>
@@ -55,48 +50,52 @@
       </nav>
     </div>
 
-    <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
-      <!-- <p class="menu-label is-hidden-touch">Navigation</p> -->
-      <ul class="menu-list">
-        <li>
-          <a href="#">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
-            <span>Github</span>
-          </a>
-        </li>
+    <div class="columns">
+      <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
+        <!-- <p class="menu-label is-hidden-touch">Navigation</p> -->
+        <ul class="menu-list">
+          <li>
+            <a href="https://github.com/kohinrichs " target="_blank" class="my-6 ml-3 p-0 py-6">
+              <figure class="image is-48x48">
+                <img src="images/Github_Logo.png">
+              </figure>
+            </a>
+          </li>
 
-        <li>
-          <a href="#">
-            <span class="icon">
-              <i class="fab fa-linkedin-in"></i>
-            </span>
-            <span>Linked</span>
-          </a>
-        </li>
+          <li>
+            <a href="https://www.linkedin.com/in/kate-hinrichs/?senderId=anna--moore" target="_blank" class="my-6 ml-3 p-0 py-6">
+              <figure class="image is-48x48">
+                <img src="images/LinkedIn_Logo.png">
+              </figure>
+            </a>
+          </li>
 
-        <li>
-          <a href="#">
-            <span class="icon">
-              <i class="far fa-paper-plane"></i>
-            </span>
-            <span>Email</span>
-          </a>
-        </li>
-      </ul>
-    </aside>
+          <li>
+            <a href="mailto: ko.hinrichs@gmail.com" class="my-6 ml-3 p-0 py-6">
+              <figure class="image is-48x48">
+                <img src="images/Email_Logo.png">
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </aside>
 
-    <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title">
-          Kate Hinrichs
-        </p>
-        <p class="subtitle">
-          Software Developer with an interest in thoughtful design
-        </p>
-      </div>
+      <!-- Hero content: will be in the middle -->
+      <section class="hero is-fullheight-with-navbar column">
+        <div class="hero-body p-0">
+          <figure class="image m-6 p-6">
+            <img src="images/koh_Logo.png">
+          </figure>
+          <div class="container">
+            <p class="title">
+              Kate Hinrichs
+            </p>
+            <p class="subtitle">
+              Software Developer with an interest in thoughtful design
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- Projects -->
@@ -104,49 +103,48 @@
       <p class="title">
         Projects
       </p>
+
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <figure class="image is-5by3">
+            <img src="images/MOBI_moveLibrary.png">
+          </figure>
+        </div>
+        <div class="column">
+          <p class="title"">
+            MOBI
+          </p>
+          <p class=" subtitle"">
+            Build the workouts you want with the moves you already know.
+          </p>
+          <div class="block subtitle is-4">
+            A little context - the why.
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <!-- Technologies + Skills -->
     <section class="is-primary">
-      <p class="title">
+      <p class="title has-text-centered">
         Technologies + Skills
       </p>
-      <button class="button is-white is-normal">Download Resume</button>
-      <div class="block">
-        Git | Github | HTML5 | CSS3 | JavaScript | JSX | React | React Router | C# | .Net | Microsoft SQL Server
+      <div class="block has-text-centered subtitle is-4">
+        Git | Github | HTML5 | CSS3 | JavaScript | React | C# | .Net | Microsoft SQL Server | Square | Squarespace |
+        Quickbooks Online
       </div>
-      <div class="block">
-        Square | Squarespace | Quickbooks Online
-      </div>
-
-
-    </section>
-
-    <!-- About -->
-    <section class="is-primary">
-      <p class="title">
-        About
-      </p>
-      <p class="subtitle">
-        Based in Nashville by way of Minnesota. Always trying to be outside. Will show up for snacks. Don't be a
-        stranger. Drop a line.
-      </p>
     </section>
 
     <!-- Hero footer: will stick at the bottom -->
     <div class="hero-foot">
-      <div class="block has-text-centered">
-        Copyright 2021 | koh
+      <div class="block subtitle is-5 has-text-centered">
+        <p> Based in Nashville by way of Minnesota. Will show up for snacks. Always trying to be outside. Don't be a
+          stranger. Drop a line.</p>
       </div>
-      <!-- <nav class="tabs is-fullwidth ">
-        <div class="container">
-          <ul>
-            <li class="is-active"><a>GitHub</a></li>
-            <li><a>LinkedIn</a></li>
-            <li><a>Email</a></li>
-          </ul>
-        </div>
-      </nav> -->
+      <div class="block has-text-centered">
+        ©2021 | koh
+      </div>
     </div>
   </section>
 
