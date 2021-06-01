@@ -6,6 +6,10 @@
   background-color: #C2B2B3;
 } */
 
+/* li.menu-item:hover {
+  background-color: #C2B2B3;
+ } */
+
  .hero {
    background-color: #D6C1B4;
  }
@@ -18,13 +22,25 @@
    margin-top: 40rem;
  }
 
- /* li > a:hover {
-   background-color: #31404C important!;
- } */
+ .li {
+  flex-direction: row
+ }
 
-/* .menu-item:hover {
-  background-color: #31404C;
- } */
+ .menu:hover {
+  transition: transform 125ms;
+  transform: translateY(-10px);
+}
+  
+.hide {
+  display: none;
+}
+
+.menu:hover + .hide {
+  display: block;
+  color:black;
+}
+
+ 
 /* .container{
     display: flex;
     justify-content: center;
