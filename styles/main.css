@@ -26,11 +26,13 @@
   flex-direction: row
  }
 
+ /* https://www.joshwcomeau.com/animation/css-transitions/ */
  .menu:hover {
   transition: transform 125ms;
   transform: translateY(-10px);
 }
   
+/* https://www.w3schools.com/howto/howto_css_display_element_hover.asp */
 .hide {
   display: none;
 }
