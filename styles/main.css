@@ -18,16 +18,19 @@
   color: #D5BBB4;
 }
 
+.navbar-menu{
+  background-color: #BEB5B8;
+}
+
 p {
   color: #D5BBB4;
 }
 
-.button.is-text:focus {
-  background-color:  #303f33;
-  color: #D5BBB4;
+.button.is-text {
+  color: #35515f;
 }
 
-.button.is-text:hover {
+.button.is-text:hover, .button.is-text:focus {
   background-color:  #303f33;
   color: #D5BBB4;
 }
@@ -35,6 +38,11 @@ p {
  .drkblu {
    color: #35515f;
  }
+
+ a strong, .subtitle strong{
+  color: #D5BBB4;
+  text-decoration: underline;
+}
 
  .responsive {
   width: 100%;
@@ -46,6 +54,25 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+ }
+
+ .icons {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+
+ .icon {
+  margin: 2rem 2rem 0rem 2rem;
+ }
+
+ .techStack {
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .tech {
+   color: #35515f;
  }
 
  /* .menu:hover {
