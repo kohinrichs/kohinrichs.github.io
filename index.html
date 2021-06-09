@@ -16,17 +16,23 @@
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 
-  <title>Kate Hinrichs</title>
+  <title>kate hinrichs | software developer</title>
 </head>
 
 <body>
   <section class="hero is-fullheight">
     <!-- Hero head: will stick at the top -->
-    <!-- <div class="hero-head">
+    
+    <div class="hero-head">
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <div>
+              <p class="subtitle drkgrn name p-3">
+                kate hinrichs | software developer
+              </p>
+            </div>
+            <span class="navbar-burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" data-target="navbarMenuHeroA">
               <span></span>
               <span></span>
               <span></span>
@@ -34,177 +40,77 @@
           </div>
           <div id="navbarMenuHeroA" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item">
-                Projects
-              </a>
-              <span class=" navbar-item">
-                <a class="button has-text-centered" href="images/ResumeV2_KateHinrichs.pdf" target="_blank">
-                  <span class="icon">
-                  </span>
-                  <span>Download Resume</span>
+              <span class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.remove('is-active');">
+                <a href="#projects">
+                  Projects
+                </a>
+              </span>
+              <span class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.remove('is-active');">
+                <a href="images/KateHinrichs_Resume.pdf" target="_blank">
+                  Resume
                 </a>
               </span>
             </div>
           </div>
         </div>
       </nav>
-    </div> -->
+    </div>
 
+    <!-- Hero content: will be in the middle -->
     <div class="columns">
-      <aside class="column is-2 is-narrow-mobile is-fullheight section pt-0">
-        <ul>
-  
-          <li class="my-6 ml-3 p-0 py-6 is-flex">
-            <div class="menu m-1">
-              <a href="https://github.com/kohinrichs " target="_blank">
-                <figure class="image is-48x48">
-                  <img src="images/GitHub_Logo.png">
-                </figure>
-              </a>
-            </div>
-            <div class="subtitle is-5 drkgrn hide">
-              <p>GitHub</p>
-            </div>
-          </li>
+      <div class="column"></div>
+      <div class="column is-four-fifths centerColumn">
+        <!-- <section class="hero is-fullheight"> -->
+        <figure class="image responsive">
+          <img src="images/koh_Logo.png">
+        </figure>
+        <!-- </section> -->
 
-          <li class="my-6 ml-3 p-0 py-6 is-flex">
-            <div class="menu m-1">
-            <a href="https://www.linkedin.com/in/kate-hinrichs/" target="_blank" >
-              <figure class="image is-48x48">
-                <img src="images/LinkedIn_Logo.png">
-              </figure>
-            </a>
-          </div>
-          <div class="subtitle is-5 drkgrn hide">
-            <p>LinkedIn</p>
-          </div>
-          </li>
 
-          <li class="my-6 ml-3 p-0 py-6 is-flex">
-            <div class="menu m-1">
-            <a href="mailto: ko.hinrichs@gmail.com">
-              <figure class="image is-48x48">
-                <img src="images/Email_Logo.png">
-              </figure>
-            </a>
-          </div>
-          <div class="subtitle is-5 drkgrn hide">
-            <p>Email</p>
-          </div>
-          </li>
+        <!-- Projects -->
+        <div id="projects"></div>
 
-          <li class="my-6 ml-3 p-0 py-6 is-flex">
-            <div class="menu m-1">
-            <a href="images/KateHinrichs_Resume.pdf" target="_blank">
-              <figure class="image is-48x48">
-                <img src="images/Resume_Logo.png">
-              </figure>
-            </a>
-          </div>
-          <div class="subtitle is-5 drkgrn hide">
-            <p>Resume</p>
-          </div>
-          </li>
-
-        </ul>
-      </aside>
-
-      <!-- Hero content: will be in the middle -->
-      <!-- <section class="hero is-fullheight-with-navbar column">
-        <div class="hero-body pt-0 columns"> -->
-          <section class="hero is-fullheight column">
-            <div class="columns">
-          <figure class="image m-6 p-6 column is-two-thirds">
-            <img src="images/koh_Logo.png">
-          </figure>
-          <div class="column name mr-4">
-            <p class="title drkgrn">
-              Kate Hinrichs
-            </p>
-            <p class="subtitle drkgrn">
-              Software Developer with an interest in thoughtful design
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- Projects -->
-
-    <!-- <section class="m-6">
-      <p class="title drkgrn">
-        Projects
-      </p>
-    <div>
-
-    </div>
-    </section> -->
-
-    <!-- <section class="m-6" id="projects">
-      <p class="title">
-        Projects
-      </p>
-
-      <div class="columns">
-        <div class="column is-two-thirds">
-          <figure class="image is-5by3">
-            <img src="images/MOBI_moveLibrary.png">
-          </figure>
-        </div>
-        <div class="column">
+        <!-- About -->
+        <section id="about">
           <p class="title drkgrn">
-            MOBI
+            Hello!
           </p>
-          <p class=" subtitle drkgrn">
-            Build the workouts you want with the moves you already know.
-          </p>
-          <div class="block subtitle is-4 drkgrn">
-            A little context - the why.
+          <div class="block has-text-centered subtitle is-4 drkgrn">
+            A utility player. Agile and adaptible small business/start up mindset. Seeing a bigger picture.
           </div>
-        </div>
+          <p class="title drkgrn">
+            Tech Stack Of The Moment
+          </p>
+          <div class="block has-text-centered subtitle is-4 m-4 drkgrn">
+            Git | Github | HTML5 | CSS3 | JavaScript | React | C# | .Net | SQL
+          </div>
+        </section>
       </div>
-
-    </section> -->
-
-    <!-- Technologies + Skills -->
-    <section class="m-6">
-      <p class="title drkgrn">
-        Technologies + Skills
-      </p>
-      <div class="block has-text-centered subtitle is-4 m-4 drkgrn">
-        Git | Github | HTML5 | CSS3 | JavaScript | React | C# | .Net | Microsoft SQL Server | Square | Squarespace |
-        Quickbooks Online
-      </div>
-    </section>
+      <div class="column"></div>
+    </div>
 
     <!-- Hero footer: will stick at the bottom -->
     <div class="hero-foot pb-5">
       <div class="block subtitle is-5 has-text-centered drkgrn">
-        <p> Based in Nashville by way of Minnesota. Will show up for snacks. Always trying to be outside. Don't be a
-          stranger. Drop a line.</p>
+        <!-- <p>Looking for more code? Look <a href="https://github.com/kohinrichs "
+            target="_blank"><strong>HERE</strong></a>. 
+            </p>
+            <p>Curious about my other work experiences? Try <a
+            href="https://www.linkedin.com/in/kate-hinrichs/" target="_blank"><strong>HERE.</strong></a> 
+          </p>
+          <p>Want to have a chat? <a href="mailto: ko.hinrichs@gmail.com"><strong>THIS</strong></a> is the place. </p> -->
+
+        <p>
+          Looking for more code? Look <a href="https://github.com/kohinrichs "
+            target="_blank"><strong>HERE</strong></a>. Curious about my other work experiences? Try <a
+            href="https://www.linkedin.com/in/kate-hinrichs/" target="_blank"><strong>HERE.</strong></a>
+          Want to have a chat? <a href="mailto: ko.hinrichs@gmail.com"><strong>THIS</strong></a> is the place.</p>
       </div>
       <div class="block has-text-centered drkgrn">
         ©2021 | koh
       </div>
     </div>
   </section>
-
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script> -->
-
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
 </body>
 
 </html>
