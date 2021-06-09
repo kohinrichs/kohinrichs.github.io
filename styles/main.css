@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Poppins:wght@200;300&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
 
- .hero {
+ /* .hero {
    background-color: #D6C1B4;
- }
+ } */
+
+ .hero {
+  background-color: #BEB5B8;
+}
+
+.button.is-text:hover:hover {
+  background-color: #D6C1B4;
+}
 
  .drkgrn {
    color: #31404C;
