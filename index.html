@@ -20,25 +20,25 @@
 </head>
 
 <body>
-  <section class="hero is-fullheight">
+  <section class="hero">
     <!-- Hero head: will stick at the top -->
-    
+
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
             <div>
-              <p class="subtitle drkgrn name p-3">
+              <p class="subtitle p-3 drkblu">
                 kate hinrichs | software developer
               </p>
             </div>
-            <span class="navbar-burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" data-target="navbarMenuHeroA">
+            <span class="navbar-burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
               <span></span>
               <span></span>
               <span></span>
             </span>
           </div>
-          <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-menu">
             <div class="navbar-end">
               <span class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.remove('is-active');">
                 <a class="button is-rounded is-text" href="#projects">
@@ -54,44 +54,44 @@
           </div>
         </div>
       </nav>
-    </div>
-
-    <!-- Hero content: will be in the middle -->
-    <div class="columns">
-      <div class="column"></div>
-      <div class="column is-four-fifths centerColumn">
-        <!-- <section class="hero is-fullheight"> -->
+      <section class="hero is-fullheight centerColumn">
         <figure class="image responsive">
           <img src="images/koh_Logo.png">
         </figure>
-        <!-- </section> -->
+      </section>
+    <!-- </div> -->
 
-
+    <!-- Hero content: will be in the middle -->
+    <div class="columns hero-middle">
+      <div class="column"></div>
+      <div class="column is-four-fifths centerColumn">
+  
         <!-- Projects -->
         <div id="projects"></div>
 
         <!-- About -->
         <section id="about">
-          <p class="title drkgrn">
+          <p class="title drkblu">
             Hello!
           </p>
-          <div class="block has-text-centered subtitle is-4 drkgrn">
+          <div class="block has-text-centered subtitle is-4 drkblu">
             A utility player. Agile and adaptible small business/start up mindset. Seeing a bigger picture.
           </div>
-          <p class="title drkgrn">
+          <p class="title drkblu">
             Tech Stack Of The Moment
           </p>
-          <div class="block has-text-centered subtitle is-4 m-4 drkgrn">
+          <div class="block has-text-centered subtitle is-4 m-4 drkblu">
             Git | Github | HTML5 | CSS3 | JavaScript | React | C# | .Net | SQL
           </div>
         </section>
       </div>
       <div class="column"></div>
     </div>
+  </div>
 
     <!-- Hero footer: will stick at the bottom -->
     <div class="hero-foot pb-5">
-      <div class="block subtitle is-5 has-text-centered drkgrn">
+      <div class="block subtitle is-5 has-text-centered">
         <!-- <p>Looking for more code? Look <a href="https://github.com/kohinrichs "
             target="_blank"><strong>HERE</strong></a>. 
             </p>
@@ -103,11 +103,23 @@
         <p>
           Looking for more code? Look <a href="https://github.com/kohinrichs "
             target="_blank"><strong>HERE</strong></a>. Curious about my other work experiences? <a
-            href="https://www.linkedin.com/in/kate-hinrichs/" target="_blank"><strong>This</strong></a> is the place.
+            href="https://www.linkedin.com/in/kate-hinrichs/" target="_blank"><strong>THIS</strong></a> is the place.
           Want to chat? Drop a <a href="mailto: ko.hinrichs@gmail.com"><strong>LINE</strong></a>.</p>
       </div>
-      <div class="block has-text-centered drkgrn">
-        ©2021 | koh
+      <div class="block has-text-centered drkblu">
+         <a onclick="document.querySelector('.modal').classList.toggle('is-active');">
+          <strong>Design Inspiration</strong> 
+          </a>
+        | ©2021 | koh
+      </div>
+      <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <p class="image">
+            <img src="images/Great Smoky Mountains.jpeg" alt="Great Smoky Mountains National Park">
+          </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close" onclick="document.querySelector('.modal').classList.remove('is-active');"></button>
       </div>
     </div>
   </section>

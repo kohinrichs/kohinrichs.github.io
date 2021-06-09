@@ -5,16 +5,34 @@
    background-color: #D6C1B4;
  } */
 
- .hero {
+ .hero-head {
   background-color: #BEB5B8;
 }
 
-.button.is-text:hover:hover {
-  background-color: #D6C1B4;
+.hero-middle {
+  background-color: #DACEBB;
 }
 
- .drkgrn {
-   color: #31404C;
+.hero-foot {
+  background-color: #303f33;
+  color: #D5BBB4;
+}
+
+p {
+  color: #D5BBB4;
+}
+
+.button.is-text {
+  color: #35515f;
+}
+
+.button.is-text:hover {
+  background-color:  #303f33;
+  color: #D5BBB4;
+}
+
+ .drkblu {
+   color: #35515f;
  }
 
  .responsive {
