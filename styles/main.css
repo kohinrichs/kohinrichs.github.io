@@ -1,38 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Poppins:wght@200;300&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
 
-/* 
-.hero {
-  background-color: #C2B2B3;
-} */
-
-/* li.menu-item:hover {
-  background-color: #C2B2B3;
+ /* .hero {
+   background-color: #D6C1B4;
  } */
 
- .hero {
-   background-color: #D6C1B4;
+ .hero-head {
+  background-color: #BEB5B8;
+}
+
+.hero-middle {
+  background-color: #DACEBB;
+}
+
+.hero-foot {
+  background-color: #303f33;
+  color: #D5BBB4;
+}
+
+.navbar-menu{
+  background-color: #BEB5B8;
+}
+
+p {
+  color: #D5BBB4;
+}
+
+.button.is-text {
+  color: #35515f;
+}
+
+.button.is-text:hover, .button.is-text:focus {
+  background-color:  #303f33;
+  color: #D5BBB4;
+}
+
+ .drkblu {
+   color: #35515f;
  }
 
- .drkgrn {
-   color: #31404C;
+ a strong, .subtitle strong{
+  color: #D5BBB4;
+  text-decoration: underline;
+}
+
+ .responsive {
+  width: 100%;
+  max-width: 820px;
+  height: 820px;
  }
 
- .name {
-   margin-top: 40rem;
+ .centerColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
 
- .li {
-  flex-direction: row
+ .techStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.tech {
+  color: #35515f;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+ .icons {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
  }
 
- /* https://www.joshwcomeau.com/animation/css-transitions/ */
- .menu:hover {
+ .icon {
+  margin: 2rem 2rem 0rem 2rem;
+ }
+
+ /* .menu:hover {
   transition: transform 125ms;
   transform: translateY(-10px);
 }
   
-/* https://www.w3schools.com/howto/howto_css_display_element_hover.asp */
 .hide {
   display: none;
 }
@@ -40,40 +93,4 @@
 .menu:hover + .hide {
   display: block;
   color:black;
-}
-
- 
-/* .container{
-    display: flex;
-    justify-content: center;
-    padding-top: 15rem;
 } */
-
-/* .comingSoong{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50rem;
-} */
-
-/* .h1, .h3, .strong {
-    font-family: 'M PLUS 1p', sans-serif;
-} */
-
-/* Sticky Nav Bar and Footer */
-/* main > .container {
-    padding: 60px 15px 0;
-  } */
-  
-  /* .footer {
-    background-color: #f5f5f5;
-  }
-  
-  .footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  
-  code {
-    font-size: 80%;
-  } */

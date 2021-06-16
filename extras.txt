@@ -1,0 +1,51 @@
+<li class="my-6 ml-3 p-0 py-6 is-flex">
+            <div class="menu m-1">
+              <a href="https://github.com/kohinrichs " target="_blank">
+                <figure class="image is-48x48">
+                  <img src="images/GitHub_Logo.png">
+                </figure>
+              </a>
+            </div>
+            <div class="subtitle is-5 drkgrn hide">
+              <p>GitHub</p>
+            </div>
+          </li>
+
+          <li class="my-6 ml-3 p-0 py-6 is-flex">
+            <div class="menu m-1">
+            <a href="https://www.linkedin.com/in/kate-hinrichs/" target="_blank" >
+              <figure class="image is-48x48">
+                <img src="images/LinkedIn_Logo.png">
+              </figure>
+            </a>
+          </div>
+          <div class="subtitle is-5 drkgrn hide">
+            <p>LinkedIn</p>
+          </div>
+          </li>
+
+          <li class="my-6 ml-3 p-0 py-6 is-flex">
+            <div class="menu m-1">
+            <a href="mailto: ko.hinrichs@gmail.com">
+              <figure class="image is-48x48">
+                <img src="images/Email_Logo.png">
+              </figure>
+            </a>
+          </div>
+          <div class="subtitle is-5 drkgrn hide">
+            <p>Email</p>
+          </div>
+          </li>
+
+          <li class="my-6 ml-3 p-0 py-6 is-flex">
+            <div class="menu m-1">
+            <a href="images/KateHinrichs_Resume.pdf" target="_blank">
+              <figure class="image is-48x48">
+                <img src="images/Resume_Logo.png">
+              </figure>
+            </a>
+          </div>
+          <div class="subtitle is-5 drkgrn hide">
+            <p>Resume</p>
+          </div>
+          </li>
